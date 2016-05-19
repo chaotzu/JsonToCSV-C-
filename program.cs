@@ -83,7 +83,7 @@ namespace CSVaperturasSAPII
         /// <param name="result">Datos a escribir</param>
         public static void WriteCSV(String result)
         {
-            string csvpath = @"c:\temp\Aperturas.csv";
+            string csvpath = @"c:\temp\file.csv";
 
             if (File.Exists(csvpath))
             {
